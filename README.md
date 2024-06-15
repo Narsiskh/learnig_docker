@@ -48,6 +48,38 @@ It is actually the main difference between Docker and virtual machine.
 
 ### What affects has this difference?
 
-|   |   |   |
-|---|---|---|
-|   |   |   |
+|               | Docker                                |         Virtual Machine        |
+|---------------|---------------------------------------|--------------------------------|
+| Size of Image | MB                                    |               GB               |
+| Speed         | Containers take **seconds** to start. | VMs take **minutes** to start. |
+| Compability   | Only with Linux                       |             All OS             |
+|               |                                       |                                |
+|               |                                       |                                |
+
+
+<br>
+
+- Most containers are **Linux** based.
+- Docker was originally built for **Linux OS**.
+
+#### Docker Desktop :
+- Docker desktop makes it possible to run Linux containers on Windows or MacOS.
+- It uses a **Hypervisor layer** with a lightweight Linux distro.
+
+## Install Docker
+
+### What is included in Docker Desktop?
+
+* Docker Engine
+* Docker CLI client
+* Docker Scout (additional subscription may apply)
+* Docker Build
+* Docker Extensions
+* Docker Compose
+* Docker Content Trust
+* Kubernetes
+* Credential Helper
+
+### Docker Engine
+* A **server** with a long-running daemon process "dockerd"
+* Manage images & containers
